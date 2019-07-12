@@ -36,9 +36,9 @@ def hit?(current_card_value)
    user_input = get_user_input
    while user_input != "h" || user_input !="s"
  end
- if user_input = "h"
+ if user_input == "h"
 current_card_value += deal_card
- elsif user_input = "s"
+ elsif user_input == "s"
 current_card_value
  else invalid_command
    
